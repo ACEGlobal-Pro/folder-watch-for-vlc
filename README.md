@@ -5,6 +5,10 @@ rename or replace files on disk and the tree follows within seconds, for as
 long as VLC is open. No more dragging folders into the Media Library after
 every change.
 
+Folder Watch for VLC is an independent, open-source project. It is not
+affiliated with, or endorsed by, the VideoLAN project. VLC and VideoLAN are
+trademarks of VideoLAN and are used here only to say which player it works with.
+
 ![Folder Watch in VLC's sidebar](docs/screenshot-sidebar.jpg)
 
 ## Features
@@ -129,8 +133,9 @@ Interface › Main interfaces › untick **Lua interpreter**.
 
 Everything runs inside VLC on your Mac. Folder Watch reads the folders you
 choose and writes three small files next to VLC's own settings (settings,
-status, a rescan trigger). It makes no network connections, collects nothing,
-and phones home to no one.
+status, a rescan trigger). It has no network code at all, collects nothing,
+and sends nothing anywhere. You can confirm this yourself: the three scripts
+are plain text, about 600 lines in total.
 
 ## Issues and feedback
 
@@ -139,7 +144,10 @@ Bugs, questions and ideas:
 
 ## Licence
 
-MIT. See [LICENSE](LICENSE).
+Folder Watch for VLC is free, open-source software under the MIT licence,
+provided as is, without warranty of any kind. See [LICENSE](LICENSE) for the
+full terms and [docs/LICENSING.md](docs/LICENSING.md) for what the project
+contains and how it relates to VLC.
 
 ## Development
 
