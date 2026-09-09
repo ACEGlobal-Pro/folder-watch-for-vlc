@@ -4,6 +4,7 @@
 
 - **1.0.0** released for macOS, VLC 3.0.x. Passes the headless suite (43 checks).
 - Distribution: GitHub releases and issues.
+- Public surfaces (releases, listing, forum, visibility, public name) change only on a Founder GO recorded as a `founder-go/<sha>` tag — see `CLAUDE.md` § Release path (ruling 2026-09-09). Open Founder items: ACE-OpenSource-FolderWatch-0126 (public launch) and the name question raised on it.
 
 ## Known limits
 
